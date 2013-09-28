@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="OZ4.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="float_pkg_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sim_top_TB_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="sim_top_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="sim_top_TB_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sim_top_TB_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1301147521" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1301147521">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1301153409" xil_pn:in_ck="-2698578064440324544" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1301153409">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.vhd"/>
+      <outfile xil_pn:name="Fixed_Point_ALU.vhd"/>
+      <outfile xil_pn:name="IO_ctl.vhd"/>
+      <outfile xil_pn:name="IO_ctl_TB.vhd"/>
+      <outfile xil_pn:name="OZ4_top.vhd"/>
+      <outfile xil_pn:name="PC_MUX.vhd"/>
+      <outfile xil_pn:name="ctl_unit.vhd"/>
+      <outfile xil_pn:name="data_memory.vhd"/>
+      <outfile xil_pn:name="data_stack.vhd"/>
+      <outfile xil_pn:name="fixed_pkg_c.vhd"/>
+      <outfile xil_pn:name="float_pkg_c.vhd"/>
+      <outfile xil_pn:name="instruction_memory.vhd"/>
+      <outfile xil_pn:name="mem_ctl.vhd"/>
+      <outfile xil_pn:name="other_sim.vhd"/>
+      <outfile xil_pn:name="prog_counter.vhd"/>
+      <outfile xil_pn:name="return_stack.vhd"/>
+      <outfile xil_pn:name="sim_top.vhd"/>
+      <outfile xil_pn:name="sim_top_TB.vhd"/>
+      <outfile xil_pn:name="stack_in_MUX.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1301151417" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7190876558091326925" xil_pn:start_ts="1301151417">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1301151417" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-8908716210163779851" xil_pn:start_ts="1301151417">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1300816525" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="1716993720529128071" xil_pn:start_ts="1300816525">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1301153409" xil_pn:in_ck="-2698578064440324544" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1301153409">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.vhd"/>
+      <outfile xil_pn:name="Fixed_Point_ALU.vhd"/>
+      <outfile xil_pn:name="IO_ctl.vhd"/>
+      <outfile xil_pn:name="IO_ctl_TB.vhd"/>
+      <outfile xil_pn:name="OZ4_top.vhd"/>
+      <outfile xil_pn:name="PC_MUX.vhd"/>
+      <outfile xil_pn:name="ctl_unit.vhd"/>
+      <outfile xil_pn:name="data_memory.vhd"/>
+      <outfile xil_pn:name="data_stack.vhd"/>
+      <outfile xil_pn:name="fixed_pkg_c.vhd"/>
+      <outfile xil_pn:name="float_pkg_c.vhd"/>
+      <outfile xil_pn:name="instruction_memory.vhd"/>
+      <outfile xil_pn:name="mem_ctl.vhd"/>
+      <outfile xil_pn:name="other_sim.vhd"/>
+      <outfile xil_pn:name="prog_counter.vhd"/>
+      <outfile xil_pn:name="return_stack.vhd"/>
+      <outfile xil_pn:name="sim_top.vhd"/>
+      <outfile xil_pn:name="sim_top_TB.vhd"/>
+      <outfile xil_pn:name="stack_in_MUX.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1301153419" xil_pn:in_ck="-2698578064440324544" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="649560184180376507" xil_pn:start_ts="1301153409">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="sim_top_TB_beh.prj"/>
+      <outfile xil_pn:name="sim_top_TB_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1301153420" xil_pn:in_ck="-3090087596215250113" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7726716472900830968" xil_pn:start_ts="1301153419">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="sim_top_TB_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>

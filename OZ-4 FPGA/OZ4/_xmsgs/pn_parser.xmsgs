@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ben/Desktop/Folders/Projects/Personal/OZ-4/OZ-4 FPGA/OZ4/ALU.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ben/Desktop/Folders/Projects/Personal/OZ-4/OZ-4 FPGA/OZ4/Fixed_Point_ALU.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ben/Desktop/Folders/Projects/Personal/OZ-4/OZ-4 FPGA/OZ4/IO_ctl.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ben/Desktop/Folders/Projects/Personal/OZ-4/OZ-4 FPGA/OZ4/OZ4_top.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ben/Desktop/Folders/Projects/Personal/OZ-4/OZ-4 FPGA/OZ4/PC_MUX.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ben/Desktop/Folders/Projects/Personal/OZ-4/OZ-4 FPGA/OZ4/ctl_unit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ben/Desktop/Folders/Projects/Personal/OZ-4/OZ-4 FPGA/OZ4/data_memory.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ben/Desktop/Folders/Projects/Personal/OZ-4/OZ-4 FPGA/OZ4/data_stack.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ben/Desktop/Folders/Projects/Personal/OZ-4/OZ-4 FPGA/OZ4/fixed_pkg_c.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ben/Desktop/Folders/Projects/Personal/OZ-4/OZ-4 FPGA/OZ4/float_pkg_c.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ben/Desktop/Folders/Projects/Personal/OZ-4/OZ-4 FPGA/OZ4/instruction_memory.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ben/Desktop/Folders/Projects/Personal/OZ-4/OZ-4 FPGA/OZ4/mem_ctl.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ben/Desktop/Folders/Projects/Personal/OZ-4/OZ-4 FPGA/OZ4/other_sim.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ben/Desktop/Folders/Projects/Personal/OZ-4/OZ-4 FPGA/OZ4/prog_counter.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ben/Desktop/Folders/Projects/Personal/OZ-4/OZ-4 FPGA/OZ4/return_stack.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ben/Desktop/Folders/Projects/Personal/OZ-4/OZ-4 FPGA/OZ4/sim_top.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ben/Desktop/Folders/Projects/Personal/OZ-4/OZ-4 FPGA/OZ4/stack_in_MUX.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

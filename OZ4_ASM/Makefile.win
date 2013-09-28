@@ -1,0 +1,45 @@
+# Project: OZ4_ASM
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = main.o InfoIO_class.o LabelImm_class.o Checker_class.o Output_class.o InstructionGrab_class.o $(RES)
+LINKOBJ  = main.o InfoIO_class.o LabelImm_class.o Checker_class.o Output_class.o InstructionGrab_class.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib"  
+INCS =  -I"C:/Dev-Cpp/include" 
+CXXINCS =  -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include" 
+BIN  = OZ4_ASM.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before OZ4_ASM.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "OZ4_ASM.exe" $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+InfoIO_class.o: InfoIO_class.cpp
+	$(CPP) -c InfoIO_class.cpp -o InfoIO_class.o $(CXXFLAGS)
+
+LabelImm_class.o: LabelImm_class.cpp
+	$(CPP) -c LabelImm_class.cpp -o LabelImm_class.o $(CXXFLAGS)
+
+Checker_class.o: Checker_class.cpp
+	$(CPP) -c Checker_class.cpp -o Checker_class.o $(CXXFLAGS)
+
+Output_class.o: Output_class.cpp
+	$(CPP) -c Output_class.cpp -o Output_class.o $(CXXFLAGS)
+
+InstructionGrab_class.o: InstructionGrab_class.cpp
+	$(CPP) -c InstructionGrab_class.cpp -o InstructionGrab_class.o $(CXXFLAGS)

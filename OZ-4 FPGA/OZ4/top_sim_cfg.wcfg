@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/sim_top_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="fixed_pkg" />
+            <top_module name="math_real" />
+            <top_module name="numeric_std" />
+            <top_module name="sim_top_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/sim_top_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/uut/OZ4/ctl/pc_data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_data_out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider6" type="divider">
+      <obj_property name="label">Instruction Memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/uut/instruction_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instruction_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_addr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/uut/instruction_mem_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instruction_mem_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_mem_out[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider11" type="divider">
+      <obj_property name="label">New Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/uut/immediate_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">immediate_addr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">immediate_addr[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/uut/immediate_mem_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">immediate_mem_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">immediate_mem_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider12" type="divider">
+      <obj_property name="label">New Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/uut/OZ4/ctl/instruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instruction[11:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/uut/OZ4/ctl/opcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider15" type="divider">
+      <obj_property name="label">Data Stack</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/uut/OZ4/DS/e0_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">e0_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">e0_r[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/uut/OZ4/DS/e1_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">e1_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">e1_r[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/uut/OZ4/DS/e2_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">e2_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">e2_r[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider24" type="divider">
+      <obj_property name="label">New Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/uut/OZ4/DS/stg_elements" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">stg_elements[12:0]</obj_property>
+      <obj_property name="ObjectShortName">stg_elements[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider21" type="divider">
+      <obj_property name="label">I/O</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/uut/oz4_iport" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">oz4_iport[31:0]</obj_property>
+      <obj_property name="ObjectShortName">oz4_iport[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/uut/oz4_oport" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">oz4_oport[31:0]</obj_property>
+      <obj_property name="ObjectShortName">oz4_oport[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/uut/oz4_ipins" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">oz4_ipins[7:0]</obj_property>
+      <obj_property name="ObjectShortName">oz4_ipins[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_top_tb/uut/oz4_opins" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">oz4_opins[7:0]</obj_property>
+      <obj_property name="ObjectShortName">oz4_opins[7:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,60 @@
+Running: C:\Xilinx\12.1\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/sim_top_TB_isim_beh.exe -prj C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/sim_top_TB_beh.prj work.sim_top_TB 
+ISim M.53d (signature 0xb869381d)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/fixed_pkg_c.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/Fixed_Point_ALU.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/stack_in_MUX.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/return_stack.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/prog_counter.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/PC_MUX.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/mem_ctl.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/IO_ctl.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/data_stack.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/ctl_unit.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/OZ4_top.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/instruction_memory.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/data_memory.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/sim_top.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/sim_top_TB.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:746 - "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/fixed_pkg_c.vhd" Line 1298: Range is empty (null range)
+WARNING:HDLCompiler:746 - "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/fixed_pkg_c.vhd" Line 1299: Range is empty (null range)
+WARNING:HDLCompiler:746 - "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/fixed_pkg_c.vhd" Line 1300: Range is empty (null range)
+WARNING:HDLCompiler:746 - "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/fixed_pkg_c.vhd" Line 6308: Range is empty (null range)
+Completed static elaboration
+Fuse Memory Usage: 119060 KB
+Fuse CPU Usage: 717 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package std_logic_arith from library ieee
+Using precompiled package std_logic_unsigned from library ieee
+Using precompiled package numeric_std from library ieee
+Using precompiled package textio from library std
+Using precompiled package math_real from library ieee
+Using precompiled package std_logic_textio from library ieee
+Compiling package vcomponents
+Compiling package fixed_pkg
+Compiling architecture behavioral of entity ctl_unit [ctl_unit_default]
+Compiling architecture behavioral of entity fixed_point_alu [fixed_point_alu_default]
+Compiling architecture behavioral of entity alu [alu_default]
+Compiling architecture behavioral of entity data_stack [data_stack_default]
+Compiling architecture behavioral of entity return_stack [return_stack_default]
+Compiling architecture behavioral of entity memory_control [memory_control_default]
+Compiling architecture behavioral of entity prog_counter [prog_counter_default]
+Compiling architecture behavioral of entity io_ctl [io_ctl_default]
+Compiling architecture behavioral of entity stack_in_mux [stack_in_mux_default]
+Compiling architecture behavioral of entity pc_mux [pc_mux_default]
+Compiling architecture behavioral of entity oz4_top [oz4_top_default]
+Compiling architecture behavioral of entity data_memory [data_memory_default]
+Compiling architecture behavioral of entity instruction_memory [instruction_memory_default]
+Compiling architecture behavioral of entity sim_top [sim_top_default]
+Compiling architecture behavioral of entity sim_top_tb
+Time Resolution for simulation is 1ps.
+Waiting for 13 sub-compilation(s) to finish...
+Compiled 39 VHDL Units
+Built simulation executable C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/OZ-4/OZ-4 FPGA/OZ4/sim_top_TB_isim_beh.exe
+Fuse Memory Usage: 139668 KB
+Fuse CPU Usage: 1762 ms
